@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoe website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div
+        class="flex flex-col md:flex-row items-center mx-4 md:mx-20 justify-between my-5 md:my-10"
+      >
+        <div class="flex items-center gap-5 md:gap-10">
+          <h1 class="text-2xl md:text-3xl font-bold">Sneakers</h1>
+          <nav class="hidden md:flex items-center">
+            <ul class="flex gap-3">
+              <li>
+                <a href="#Collections" class="hover:text-grey-700"
+                  >Collections</a
+                >
+              </li>
+              <li><a href="#Men" class="hover:text-grey-700">Men</a></li>
+              <li><a href="#Women" class="hover:text-grey-700">Women</a></li>
+              <li><a href="#About" class="hover:text-grey-700">About</a></li>
+              <li>
+                <a href="#Contacts" class="hover:text-grey-700">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="flex items-center space-x-4">
+          <img
+            src="./assets/icon-cart.svg"
+            alt="cart icon"
+            class="w-6 md:w-8"
+          />
+          <img src="./assets/image-avatar.png" class="w-10 md:w-12" />
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="flex flex-col md:flex-row items-center justify-center">
+        <div class="w-full md:w-1/2 flex justify-center">
+          <img
+            src="./assets/image-product-1.jpg"
+            alt="sneaker image"
+            class="w-3/4 md:w-full h-auto object-cover rounded-md md:ml-20"
+          />
+        </div>
+        <div class="w-full md:w-1/2 mt-4 md:ml-[-50px]">
+          <h1 class="semi-bold text-sm uppercase text-center md:text-center">
+            sneaker company
+          </h1>
+          <h1 class="text-3xl font-bold text-center md:text-center mt-4">
+            Fall limited edition sneakers
+          </h1>
+          <h1 class="text-center md:text-center mt-4">
+            This low profile sneakers are your perfect casual wears
+            <br />companion. featuring a durable weather outer sole,<br />
+            they will withstand everything the weather
+          </h1>
+          <div class="flex items-center justify-center md:justify-center mt-4">
+            <p class="text-2xl font-bold">$ 125.00</p>
+            <button
+              class="bg-black font-bold text-white py-2 px-4 rounded-md ml-2"
+            >
+              50%
+            </button>
+          </div>
+          <p class="ml-64 line-through">$250.00</p>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="flex flex-col md:flex-row items-center justify-center mx-4 md:ml-80 gap-4 mt-4"
+    >
+      <div
+        class="flex bg-orange-500 w-24 h-8 rounded-md gap-2 items-center justify-center md:ml-60 md:mt-[-100px]"
+      >
+        <h1 class="font-bold text-white">+</h1>
+        <h1 class="font-bold text-white">0</h1>
+        <h1 class="font-bold text-white">-</h1>
+      </div>
+      <div class="md:mt-[-100px]">
+        <button
+          class="flex text-black w-40 h-10 bg-orange-500 gap-3 py-2 px-4 rounded-md"
+        >
+          <img src="./assets/icon-cart.svg" alt="cart icon" class="ml-2" />Add
+          to Cart
+        </button>
+      </div>
+    </div>
+
+    <section>
+      <div class="flex w-80 h-auto ml-40 gap-5">
+        <img
+          src="./assets/image-product-1.jpg"
+          alt="sneaker1"
+          class="w-20 h-20 rounded-md"
+        />
+        <img
+          src="./assets/image-product-2.jpg"
+          alt="sneaker2"
+          class="w-20 h-20 rounded-md"
+        />
+        <img
+          src="./assets/image-product-3.jpg"
+          alt="sneaker3"
+          class="w-20 h-20 rounded-md"
+        />
+        <img
+          src="./assets/image-product-4.jpg"
+          alt="sneaker4"
+          class="w-20 h-20 rounded-md"
+        />
+      </div>
+    </section>
+  </body>
+</html>
